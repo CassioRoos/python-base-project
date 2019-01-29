@@ -107,3 +107,6 @@ venv.bak/
 Pipfile.lock
 
 *.db
+
+.idea/
+.vscode/
