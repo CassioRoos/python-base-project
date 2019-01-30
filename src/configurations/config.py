@@ -3,8 +3,6 @@ from decouple import config
 SERVER_PORTA_EXECUCAO = config("APP_PORT", default=5001, cast=int)
 HOST = config("HOST", default="127.0.0.1", cast=str)
 
-APP_ID = config("APP_ID", default=1, cast=int)
-
 CONF_DB = config("CONF_DB", default="TestDocker", cast=str)
 
 CONF_DEBUG = config("CONF_DEBUG", default=True, cast=bool)
