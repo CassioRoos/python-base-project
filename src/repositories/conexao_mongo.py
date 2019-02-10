@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-from configurations import config
+from src.configurations import config
 
 
 class ConexaoMongo():

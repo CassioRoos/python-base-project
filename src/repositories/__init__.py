@@ -1,3 +1,3 @@
-from repositories.conexao_mongo import ConexaoMongo
+from src.repositories.conexao_mongo import ConexaoMongo
 
 conexaomongo = ConexaoMongo()

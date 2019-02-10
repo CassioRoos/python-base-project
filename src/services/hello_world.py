@@ -1,6 +1,6 @@
 import json
 
-from repositories.hello_world import HelloWorldRepository
+from src.repositories.hello_world import HelloWorldRepository
 
 helloworldrepository = HelloWorldRepository()
 

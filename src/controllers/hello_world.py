@@ -2,7 +2,7 @@ import time
 from http import HTTPStatus
 from random import randint
 
-from services.hello_world import HelloWorld
+from src.services.hello_world import HelloWorld
 from src.controllers.base import BaseHandler
 
 helloworldservice = HelloWorld()

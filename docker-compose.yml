@@ -1,0 +1,21 @@
+version: '3.4'
+services:
+  python-app-mongo:
+    build: 
+      context: .
+      dockerfile: dockerfile
+    environment:
+    - APP_PORT=5001
+    - DB_URL=mongo
+    - DB_PORTA=27017
+    - DB_NOME=hello_world
+    container_name: app-mongo
+    depends_on:
+      - mongodb
+    ports:
+      - 5001:5001
+  mongodb:
+    container_name: mongo
+    image: mongo:3.4
+    ports: 
+      - 27017:27017

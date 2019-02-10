@@ -2,7 +2,7 @@ import json
 
 from bson.json_util import dumps
 
-from repositories import conexaomongo
+from src.repositories import conexaomongo
 
 
 class HelloWorldRepository():
