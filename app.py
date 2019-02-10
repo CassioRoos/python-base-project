@@ -48,7 +48,7 @@ if __name__ == "__main__":
     classes = {}
     app = PainelTarefasApplication(classes)
     app.log_request = log_request
-    porta = config.SERVER_PORTA_EXECUCAO
+    porta = config.APP_PORT
     app.listen(porta)
     print(f"Servidor rodando em http://{IP}:{porta}. Pressione Ctrl + C para parar.")
     tornado.ioloop.IOLoop.current().start()
